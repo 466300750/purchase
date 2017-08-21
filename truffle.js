@@ -12,7 +12,7 @@ module.exports = {
       network_id: "*" // Match any network id
     },
     ropsten: {
-        network_id: 1,
+        network_id: 3,
         provider: new WalletProvider(wallet, "http://45.76.197.72:8545")
     }
   }
